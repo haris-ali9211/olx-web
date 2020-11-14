@@ -1,0 +1,1169 @@
+
+body{
+  padding: 0;
+  margin: 0;
+}
+li p {
+  margin: 0;
+}
+li:hover{
+  color: rgb(11, 241, 88) ;
+  cursor: pointer;
+}
+ul{
+ list-style-type: none !important;
+ padding-top: 20px ;
+}
+.herader{
+  background-color: aqua;
+}
+
+.footer{
+  background-color: brown;
+}
+.LogoOlx{
+  position: relative;
+  left: 20px;
+  bottom: 5px;
+}
+.navbar{
+  height: 65px;
+}
+.search2{
+  height: 55px !important;
+  width: 600px !important;
+  border-color: black !important;
+}
+.searchIcon{
+  background-color: black;
+  height: 55px;
+  width: 40px ;
+  border-radius: 5px;
+}
+.icons{
+  margin-top: 12px;
+  margin-left:4px ;
+  /* padding-top: 3px; */
+  color: white;
+}
+.leftbtn1{
+  margin-right:40px !important;
+  border: none !important; 
+  text-decoration: underline !important;
+  text-decoration: solid !important;
+  color: black !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+  
+}
+.leftbtn1:hover{
+  background-color: transparent !important;
+  border-color: blue !important;
+}
+.leftbtn2{
+  width: 150px !important;
+  height: 50px !important;
+  
+  font-weight: bold !important;
+}
+.leftbtn2:hover{
+  background-color: #5DADE2 !important;
+  border-color: #5DADE2 ;
+}
+.secondbar{
+  background-color: white !important;
+}
+.main{  
+  padding: bottom 0; ;
+}
+.recommendations{
+  text-align: left;
+  /* font-weight: bold; */
+  padding-top:50px ;
+  margin:0 ;
+  position: relative;
+  left :0px;
+  font-size: 25px !important;
+}
+.shopCard{
+  padding-top: 25px;
+  text-align: center;
+  width: 17rem;
+}
+.shopCard:hover{
+  cursor: pointer;
+}
+.card-body{
+  padding: 0%;
+}
+.heart{
+  position: absolute !important;
+  left: 90% !important;
+  top: 5px !important;
+} 
+.heart:hover{
+  color: red !important;
+}
+.main{
+  margin: 0 auto;
+  padding: 0;
+  position: fixed;
+  float: none;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px; 
+}
+.recom{
+  font-size: 10px !important;
+}
+.cover{
+  
+  position: fixed;
+  opacity: 0.9;
+  width: 100%;
+  height: 250px;
+  background-image:url(./images/phone-app.png) ;
+  /* background-position-x:0px;
+    background-position-y: -200px; */
+    background-size: 100%;
+    position: relative;
+    /* padding-bottom: ; */
+    margin-bottom: 100px; 
+}
+.card-img-size{
+  height: 200px;
+}
+.playstore{
+  /* height: 250px; */
+  padding-top:100px ;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: space-between;
+}
+.playbtn1{
+  padding: 0;
+  margin: 0;
+  border:none;
+  width: 120px;
+}
+.playbtn1{
+  padding: 0;
+  margin: 0;
+  border:none;
+  margin-right:3px;
+  margin-right: 5px;
+  width: 120px;
+}
+.playbtnimg{
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 120px;
+  margin-right: 5px;
+}
+.middPhone{
+  margin: 50px;
+}
+.lastPhone{
+  margin: 50px;
+}
+.para{
+  font-size: 18px;
+}
+.olx{
+  font-weight: bold;
+}
+.para1{
+  margin-left: 10px;
+}
+.footcol{
+  background-color: #ebeeef ;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  height: 120px;
+}
+
+.footcola{
+  margin-top: 0px !important;
+}
+.pop{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.app{
+  margin:4px ;
+  height: 10px;
+}
+.app:hover{
+  color: blue;
+  cursor: pointer;
+  height: 8px !important;
+}
+.playbtn1a{
+  padding: 0;
+  margin: 0;
+  border:none;
+  width: 80px;
+  margin-right:3px;
+}
+.playbtnimga{
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 80px;
+  margin-right:3px;
+}
+.playlastbtn{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-between;
+}
+.paralst{
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  display: inline;
+  
+}
+.footlast{
+  background-color:#002f34 ;
+}
+.span{
+  font-weight: bold;
+  position: absolute;
+  right: 40px;
+}
+.span1{
+  position: absolute;
+  left: 40px;
+}
+.cardcont1{
+  padding: 0;
+  margin: 0;  
+  width: 800px !important;
+  /* margin-left:0px ; */
+  border-width: thin !important;
+  border-color:black !important;
+
+}
+.cardcont2{
+  padding: 0;
+  margin: 0;
+  margin-left:130px;
+  width: 525px !important;
+  height: 233px;
+  border-width: thin !important;
+  margin-bottom:13px;
+  border-color:black !important;
+}
+.cardcont3{
+  padding: 0;
+  margin: 0;
+  margin-left:130px !important;  
+  width: 525px !important;
+  height: 233px; 
+  border-width: thin !important;
+  margin-bottom:13px;
+  border-color:black !important;
+}
+.card-title1{
+  /* font-family: ; */
+  /* font-style: italic; */
+  font-weight: bold;
+  /* word-spacing: 10px !important; */
+}
+.card-title1:hover{
+  font-size: 14px !important;
+  color: #002f34 !important;
+
+}
+.share{
+  float: right !important;
+}
+.share1{
+  float: right !important;
+  margin-right:5px !important;
+}
+.share:hover{
+  color: skyblue;
+  cursor: pointer;
+}
+.share1:hover{
+  color: red;
+  cursor: pointer;
+}
+.card-text{
+  font-style: italic !important;
+}
+.card-text:hover{
+  font-style: italic !important;
+  /* text-decoration: overline; */
+  color: #002f34 !important;
+}
+.sell{
+  font-weight: bold;
+}
+.round{
+  border-radius: 50% !important;
+  height: 100px !important;
+}
+.seller{
+  margin:0;
+  padding: 0;
+  /* display: inline !important; */
+  /* margin-left: 10px ; */
+  text-align: center !important;
+}
+.profile{
+  margin:0;
+  padding: 0;
+}
+.detail{
+  display: flex !important;
+  align-items: center!important;  
+}
+.center{
+  margin-left: -30px !important;
+}
+.left{
+  margin-left: 146px !important;
+  float: right !important;
+}
+.chat{
+  display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: baseline !important;
+	align-content: center !important;
+}
+.btnchat{
+  width: 270px;
+  border-style: thick !important;
+  color: white !important;
+  border-color: #002f34 !important;
+  background-color: #002f34;
+}
+.btnchat:hover{
+  color: black !important;
+  background-color: transparent;
+}
+.cardcont4{
+  padding: 0;
+  margin: 0;
+  margin-left:130px !important;  
+  width: 525px !important;
+  height: 350px; 
+  border-width: thin !important;
+  margin-bottom:13px;
+  border-color:black !important;
+}
+.mapimg{
+  width: 380px !important;
+}
+.mapimgdiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.cardcont5{
+  padding: 0;
+  margin: 0;  
+  margin-top:13px;
+  margin-bottom:13px;
+  width: 800px !important;
+  /* margin-left:0px ; */
+  border-width: thin !important;
+  border-color:black !important;
+}
+.link{
+  color: black !important;
+}
+.link:hover{
+  text-decoration: none !important;
+}
+.dropdown1{
+   width: 1600px !important;
+}
+.foot{
+  margin-top: -10px;
+  padding:0 ;
+}
+.dropdown-toggle{
+  background-color: transparent !important; 
+  color: black !important;
+  border-style:none !important;
+  border: none !important;
+  /* font-weight: bold !important; */
+  outline: none !important;
+
+}
+.dropdown-toggle:hover{
+  border-style:thick !important;
+  background-color: transparent !important; 
+}
+.nav-link{
+  color: gray !important;
+
+}
+.olx{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: center;
+}
+.olx1{
+  width: 200px;
+}
+.auth{
+  margin-top: 30px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+.profile{
+  width: 90px;
+  margin-top: 100px !important;
+  padding-top: 20px !important;
+}
+@media only screen and (max-width: 1024px) {
+  .search2{
+    height: 55px !important;
+    width: 400px !important;
+    border-color: black !important;
+  }
+  .leftbtn1{
+    margin-right:20px !important;
+    border: none !important; 
+    text-decoration: underline !important;
+    text-decoration: solid !important;
+    color: black !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+    width: 80px !important;
+
+    
+  }
+  .leftbtn1:hover{
+    background-color: transparent !important;
+    border-color: blue !important;
+  }
+  .leftbtn2{
+    width: 80px !important;
+    height: 50px !important;
+    
+    font-weight: bold !important;
+  }
+  .leftbtn2:hover{
+    background-color: #5DADE2 !important;
+    border-color: #5DADE2 ;
+  }
+  .navbar1{
+    height: 65px;
+    /* width:1300 !important; */
+  }
+  .shopCard{
+    width: 230px !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 435px;
+    text-align: center;
+  }
+  .middPhone{
+    margin: 20px;
+    margin-left: 50px;
+  }
+  .lastPhone{
+    margin: 50px;
+    margin-left: 0px;
+  }
+  .playbtn1{
+    padding: 0;
+    margin: 0;
+    border:none;
+    /* margin-right:3px;
+    margin-right: 5px; */
+    width: 100px;
+  }
+  .playbtnimg{
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 100px;
+    margin-right: 5px;
+  }
+  }
+  @media only screen and (max-width: 768px) {
+    .back{
+      background-color: #F8F9F9 !important;
+    }
+    .allcat{
+      font-size: 11px !important;
+    }
+    .nav-item{
+      font-size: 11px;
+    }
+    .dropdown1{
+      width: 1600px !important;
+      font-size: 11px;
+   }
+   .icons{
+  margin-top: 12px;
+  margin-left:11px ;
+  /* padding-top: 3px; */
+  color: white;
+}
+    .search2{
+      height: 55px !important;
+      width: 250px !important;
+      border-color: black !important;
+    }
+    .leftbtn1{
+      margin-right:20px !important;
+      border: none !important; 
+      text-decoration: underline !important;
+      text-decoration: solid !important;
+      color: black !important;
+      text-decoration: underline !important;
+      font-weight: bold !important;
+      width: 80px !important;
+      margin-left: 0px !important;
+  
+      
+    }
+    .leftbtn1:hover{
+      background-color: transparent !important;
+      border-color: blue !important;
+    }
+    .leftbtn2{
+      width: 80px !important;
+      height: 50px !important;
+      margin-left: 0px !important;
+      
+      font-weight: bold !important;
+    }
+    .leftbtn2:hover{
+      background-color: #5DADE2 !important;
+      border-color: #5DADE2 ;
+    }
+    .navbar1{
+      height: 65px;
+      /* width:1300 !important; */
+    }
+    .shopCard{
+      width: 175px !important;
+      padding-top: 5px; 
+      padding-bottom: 10px;
+      height: 330px;
+      text-align: center;
+    }
+    .name{
+      font-size: 15px;
+    }
+    .name1{
+      font-size: 11px;
+    }
+    .cardimg{
+     height: 140px !important;
+    }
+    .rounded{
+      width: 310px !important;
+    }
+    .olx{
+      font-size: 20px;
+    }
+    .para{
+      font-size: 9.5px;
+
+    }
+    .middPhone{
+      margin: 20px;
+      margin-left: 50px;
+    }
+    .lastPhone{
+      margin: 50px;
+      margin-left: 0px;
+    }
+    .playbtn1{
+      padding: 0;
+      margin: 0;
+      border:none;
+      /* margin-right:3px;
+      margin-right: 5px; */
+      width: 75px;
+    }
+    .playbtnimg{
+      padding: 0;
+      margin: 0;
+      border: none;
+      width: 75px;
+      margin-right: 5px;
+    }
+    .pop{
+      font-size: 10px;
+      font-weight: bold;
+      margin-bottom: 7px;
+    }
+    .footcol{
+      background-color: #ebeeef ;
+      font-size: 8px;
+      margin: 0;
+      padding: 0;
+      height: 120px;
+    }
+    .app{
+      margin:2px ;
+      height: 10px;
+    }
+    .playbtn1a{
+      padding: 0;
+      margin: 0;
+      border:none;
+      width: 54px;
+      margin-right:3px;
+    }
+    .playbtnimga{
+      padding: 0;
+      margin: 0;
+      border: none;
+      width: 54px;
+      margin-right:3px;
+    }
+    .heart{
+      position: absolute !important;
+      left: 88% !important;
+      top: 5px !important;
+    } 
+    }
+    @media only screen and (max-width: 425px) {
+      .back{
+        background-color: #F8F9F9 !important;
+      }
+      .img-fluid{
+        height: 90px !important;
+      }
+      .allcat{
+        font-size: 10px !important;
+      }
+      .nav-item{
+        font-size: 10px !important;
+      }
+      .dropdown1{
+        width: 1600px !important;
+        font-size: 11px;
+     }
+     .icons{
+    margin-top: 12px;
+    margin-left:11px ;
+    /* padding-top: 3px; */
+    color: white;
+  }
+      .search2{
+        height: 55px !important;
+        width: 250px !important;
+        border-color: black !important;
+      }
+      .leftbtn1{
+        margin-right:20px !important;
+        border: none !important; 
+        text-decoration: underline !important;
+        text-decoration: solid !important;
+        color: black !important;
+        text-decoration: underline !important;
+        font-weight: bold !important;
+        width: 80px !important;
+        margin-left: 0px !important;
+    
+        
+      }
+      .leftbtn1:hover{
+        background-color: transparent !important;
+        border-color: blue !important;
+      }
+      .leftbtn2{
+        width: 80px !important;
+        height: 50px !important;
+        margin-left: 0px !important;
+        
+        font-weight: bold !important;
+      }
+      .leftbtn2:hover{
+        background-color: #5DADE2 !important;
+        border-color: #5DADE2 ;
+      }
+      .navbar1{
+        height: 65px;
+        /* width:1300 !important; */
+      }
+      .shopCard{    
+        position: relative;
+        margin: auto;    
+        width: 220px !important;
+        padding-top: 5px;
+        justify-items:center ;
+        padding-bottom: 10px;
+        height: 330px;
+        text-align: center;
+      }
+      .name{
+        font-size: 15px;
+      }
+      .name1{
+        font-size: 11px;
+      }
+      .cardimg{
+       height: 140px !important;
+      }
+      .rounded{
+        width: 200px !important;
+      }
+      .playstore{
+        display: flex !important;
+	      flex-direction: column !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+	      align-items: stretch !important;
+	      align-content: space-between !important;
+      }
+      .olx{
+        text-align: center;
+        font-size: 13px;
+      }
+      .para{
+        text-align: center;
+        font-size: 13px;
+  
+      }
+      .para1{
+        text-align: center;
+        font-size: 13px;
+  
+      }
+      .middPhone{
+        
+        margin-left: 0px;
+      }
+      .lastPhone{
+        margin-left: 0px; 
+        margin-top: -30px;
+      }
+      .playbtn1{
+        
+        border:none;
+        /* margin-right:3px;
+        margin-right: 5px; */
+        width: 100px;
+      }
+      .playbtnimg{
+        padding: 0;
+        margin: 0;
+        border: none;
+        width: 100px;
+        margin-right: 5px;
+      }
+      .btnlast{
+        display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:center;
+	align-items: center;
+	align-content: space-between;
+      }
+      .pop{
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 7px;
+      }
+      .footcol{
+        display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: nowrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	align-content: space-between !important;
+        background-color: #ebeeef ;
+        font-size: 8px;
+        height: 160px;
+        
+      }
+      .hi{
+        margin-left: -50px !important
+      }
+      .app{
+        margin:2px ;
+        height: 7px;
+      }
+      .playbtn1a{
+        padding: 0;
+        margin: 0;
+        border:none;
+        width: 40px;
+        margin-right:3px;
+      }
+      .playbtnimga{
+        padding: 0;
+        margin: 0;
+        border: none;
+        width: 40px;
+        margin-right:3px;
+      }
+      .playlastbtn{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: space-between;
+        margin-left: 40px;
+      }
+      .paralst{
+        font-size:0px;
+      }
+      }
+    @media only screen and (max-width: 425px) {
+      .playlastbtn{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: space-between;
+        margin-left: 30px;
+      }
+      .hi{
+        margin-left: -60px !important
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      .cardcont1{ 
+        width: 670px !important;
+      }
+      .cardcont5{ 
+        width:670px !important;
+      }
+      .cardcont2{
+        padding: 0;
+        margin: 0;
+        margin-left:170px;
+        width: 320px !important;
+        height: 233px;
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+      }
+      .cardcont3{
+        padding: 0;
+        margin: 0;
+        margin-left:170px !important;
+        width: 320px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+      }
+      .cardcont4{
+        padding: 0;
+        margin: 0;
+        margin-left:170px !important;
+        width: 320px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+      }
+      .mapimg{
+        height: 100px !important;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .cardcont1{ 
+        width: 470px !important;
+      }
+      .cardcont5{ 
+        width:470px !important;
+      }
+      .cardcont2{
+        padding: 0;
+        margin: 0;
+        margin-left:120px;
+        width: 220px !important;
+        height: 233px;
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+      }
+      .sell{
+        font-size:13px !important;
+      }
+      .round{
+        border-radius: 50% !important;
+        height: 60px !important;
+      }
+      .hey{
+        font-size:12px !important;
+      }
+      .cardcont3{
+        padding: 0;
+        margin: 0;
+        margin-left:120px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+      }
+      .cardcont4{
+        padding: 0;
+        margin: 0;
+        margin-left:120px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+      }
+      .mapimg{
+        height: 100px !important;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      .cardcont1{ 
+        width: 390px !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .cardcont5{ 
+        width:390px !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .cardcont2{
+        padding: 0;
+        margin: 0;
+        margin-left:120px;
+        width: 220px !important;
+        height: 233px;
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .sell{
+        font-size:13px !important;
+      }
+      .round{
+        border-radius: 50% !important;
+        height: 60px !important;
+      }
+      .hey{
+        font-size:12px !important;
+      }
+      .cardcont3{
+        padding: 0;
+        margin: 0;
+        margin-left:120px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        /* display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important; */
+      }
+      .cardcont4{
+        padding: 0;
+        margin: 0;
+        margin-left:120px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .mapimg{
+        height: 100px !important;
+      }
+    }
+    @media only screen and (max-width: 375px) {
+      .cardcont1{ 
+        width: 340px !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .cardcont5{ 
+        width:340px !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .cardcont2{
+        padding: 0;
+        margin: 0;
+        margin-left:120px;
+        width: 220px !important;
+        height: 233px;
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+    
+      .cardcont3{
+        padding: 0;
+        margin: 0;
+        margin-left:120px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        /* display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important; */
+      }
+      .cardcont4{
+        padding: 0;
+        margin: 0;
+        margin-left:120px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .mapimg{
+        height: 100px !important;
+      }
+    }
+
+    @media only screen and (max-width: 320px) {
+      .cardcont1{ 
+        width: 300px !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .cardcont5{ 
+        width:300px !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .cardcont2{
+        padding: 0;
+        margin: 0;
+        margin-left:20px;
+        width: 220px !important;
+        height: 233px;
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+    
+      .cardcont3{
+        padding: 0;
+        margin: 0;
+        margin-left:20px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        /* display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important; */
+      }
+      .cardcont4{
+        padding: 0;
+        margin: 0;
+        margin-left:20px !important;
+        width: 220px !important;
+        height: 233px; 
+        border-width: thin !important;
+        margin-bottom:13px;
+        border-color:black !important;
+        display: flex !important;
+	      flex-direction: row !important;
+	      flex-wrap: nowrap !important;
+	      justify-content: center !important;
+      	align-items: stretch !important;
+      	align-content: stretch !important;
+      }
+      .mapimg{
+        height: 100px !important;
+      }
+    }
